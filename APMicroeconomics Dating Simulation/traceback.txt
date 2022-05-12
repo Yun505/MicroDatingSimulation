@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 128, in script
+    jump label_game_ending_options
+ScriptError: could not find label 'label_game_ending_options'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 128, in script
+    jump label_game_ending_options
+  File "C:\Users\YunJu\Downloads\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\YunJu\Downloads\renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'label_game_ending_options'.
+
+Windows-10-10.0.22000
+Ren'Py 7.4.11.2266
+APMicroeconomics Dating Simulation 1.0
+Wed Apr 20 12:36:18 2022
