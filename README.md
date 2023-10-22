@@ -7,4 +7,4 @@ There are a total of 6 endings and which ending is played depends on the player'
 
 The pictures are of BCA. 
 
-Should be runnable with RenPy and this was coded in Python. 
+Should be runnable with RenPy.
